@@ -1,0 +1,256 @@
+ -> April 10, 2024 ( 18:57:40 ) 
+
+ -> April 10, 2024 ( 18:59:44 ) 
+
+[*] Output from 192.168.116.128
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 10, 2024 ( 18:59:55 ) 
+
+[*] Output from 192.168.116.128
+[+] Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+snap
+Templates
+Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 10, 2024 ( 18:59:59 ) 
+
+[*] Output from 192.168.116.128
+[+] 
+----------------------------------------------------------------------------------------------------
+ -> April 10, 2024 ( 19:00:00 ) 
+
+[*] Output from 192.168.116.128
+[+] Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+snap
+Templates
+Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 19:25:05 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+[*] Output from 192.168.155.202
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 19:25:28 ) 
+
+[*] Output from 192.168.155.183
+[+] 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:81:ef:12 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.155.183/24 brd 192.168.155.255 scope global dynamic noprefixroute ens33
+       valid_lft 3373sec preferred_lft 3373sec
+    inet6 fe80::9643:b46e:479d:1df8/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+[*] Output from 192.168.155.202
+[+] 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:9a:36:c5 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.155.202/24 brd 192.168.155.255 scope global dynamic noprefixroute ens33
+       valid_lft 3252sec preferred_lft 3252sec
+    inet6 fe80::5dee:452f:694b:7e0e/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 19:26:03 ) 
+
+[*] Output from 192.168.155.183
+ -> April 11, 2024 ( 19:30:10 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+[*] Output from 192.168.155.202
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 19:31:53 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+[*] Output from 192.168.155.202
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 19:31:54 ) 
+
+[*] Output from 192.168.155.183
+[+] 
+[*] Output from 192.168.155.202
+[+] 
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 19:33:28 ) 
+
+[*] Output from 192.168.155.183
+[+] 
+[*] Output from 192.168.155.202
+[+] 
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:00:31 ) 
+
+[*] Output from 192.168.155.202
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:00:33 ) 
+
+[*] Output from 192.168.155.202
+[+] 
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:00:37 ) 
+
+[*] Output from 192.168.155.202
+[+] 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:9a:36:c5 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.155.202/24 brd 192.168.155.255 scope global dynamic noprefixroute ens33
+       valid_lft 2980sec preferred_lft 2980sec
+    inet6 fe80::5dee:452f:694b:7e0e/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:01:01 ) 
+
+[*] Output from 192.168.155.202
+[+] Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+snap
+Templates
+Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:01:12 ) 
+
+[*] Output from 192.168.155.202
+[+] Linux ubuntu 6.5.0-18-generic #18~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb  7 11:40:03 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:01:20 ) 
+
+[*] Output from 192.168.155.202
+[+] uid=999(ubuntu) gid=999(ubuntu) groups=999(ubuntu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),122(lpadmin),135(lxd),136(sambashare)
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:02:43 ) 
+
+[*] Output from 192.168.155.202
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:04:30 ) 
+
+ -> April 11, 2024 ( 23:13:17 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+ -> April 11, 2024 ( 23:16:39 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+ -> April 11, 2024 ( 23:17:32 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:17:35 ) 
+
+[*] Output from 192.168.155.183
+[+] 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:81:ef:12 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.155.183/24 brd 192.168.155.255 scope global dynamic noprefixroute ens33
+       valid_lft 2921sec preferred_lft 2921sec
+    inet6 fe80::9643:b46e:479d:1df8/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:29:59 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 11, 2024 ( 23:31:50 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 12, 2024 ( 01:55:36 ) 
+
+[*] Output from 192.168.155.183
+[+] 
+[*] Output from 192.168.155.202
+[+] 
+----------------------------------------------------------------------------------------------------
+ -> April 12, 2024 ( 01:56:34 ) 
+
+[*] Output from 192.168.155.183
+ -> April 12, 2024 ( 01:58:26 ) 
+
+[*] Output from 192.168.155.183
+[+] ubuntu
+
+[*] Output from 192.168.155.202
+[+] ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 12, 2024 ( 01:58:39 ) 
+
+[*] Output from 192.168.155.183
+[*] Output from 192.168.155.202
+----------------------------------------------------------------------------------------------------
+ -> April 12, 2024 ( 01:59:11 ) 
+
+[*] Output from 192.168.155.183
+[*] Output from 192.168.155.202
+----------------------------------------------------------------------------------------------------

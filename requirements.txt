@@ -1,0 +1,5 @@
+paramiko
+python-nmap
+termcolor
+datetime
+argparse
