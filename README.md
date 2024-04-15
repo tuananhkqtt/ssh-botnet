@@ -8,25 +8,15 @@ $ pip install -r requirements.txt --user
 
 ## Usage
 ```
-$ python ssh_botnet.py -u msfadmin -p msfadmin -i vboxnet0
+$ python ssh_botnet.py Wi-Fi
 
-Author : Goutham R
-GitHub : https://github.com/G0uth4m
+Author :	Nguyen Minh Tai
+			Nguyen Tuan Anh
+			Nguyen Thuy Linh
+			Nguyen Viet Nhat Anh
+GitHub : https://github.com/tuananhkqtt/ssh-botnet
 	
-	- This is a simple tool handy for linux administrators 
-	in schools, colleges, etc where all the systems used by students
-	in the lab or elsewhere have same usernames and passwords.
-
-	- Future releases will be having a choice to input different usernames
-	and passwords via a file.
-
-	- This code was tested on a bunch metasploitable 2 servers.
-
-	- Using this tool for illegal stuff is highly not recommended.
-
-	- 'sudo' is unsupported. You can use root as username for superuser access.
-
-	 _         _           _              _   
+		 _         _           _              _   
  ___ ___| |__     | |__   ___ | |_ _ __   ___| |_ 
 / __/ __| '_ \    | '_ \ / _ \| __| '_ \ / _ \ __|
 \__ \__ \ | | |   | |_) | (_) | |_| | | |  __/ |_ 
@@ -86,9 +76,3 @@ uid=1000(msfadmin) gid=1000(msfadmin) groups=4(adm),20(dialout),24(cdrom),25(flo
 ssh@botnet:~$ exit
 
 [*] History of commands stored in logs.txt
-
-
-```
-
-## Author
-* **Goutham** - [G0uth4m](https://github.com/G0uth4m)

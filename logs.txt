@@ -1,57 +1,51 @@
- -> April 10, 2024 ( 18:57:40 ) 
+ -> April 13, 2024 ( 23:22:21 ) 
 
- -> April 10, 2024 ( 18:59:44 ) 
-
-[*] Output from 192.168.116.128
-[+] ubuntu
+[*] Output from 192.168.155.195
+[+] kali
 
 ----------------------------------------------------------------------------------------------------
- -> April 10, 2024 ( 18:59:55 ) 
+ -> April 14, 2024 ( 03:20:03 ) 
 
-[*] Output from 192.168.116.128
-[+] Desktop
-Documents
-Downloads
-Music
-Pictures
-Public
-snap
-Templates
-Videos
-
-----------------------------------------------------------------------------------------------------
- -> April 10, 2024 ( 18:59:59 ) 
-
-[*] Output from 192.168.116.128
+[*] Output from 192.168.155.195
 [+] 
 ----------------------------------------------------------------------------------------------------
- -> April 10, 2024 ( 19:00:00 ) 
+ -> April 14, 2024 ( 03:20:10 ) 
 
-[*] Output from 192.168.116.128
-[+] Desktop
-Documents
-Downloads
-Music
-Pictures
-Public
-snap
-Templates
-Videos
+[*] Output from 192.168.155.195
+[+] kali
 
 ----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 19:25:05 ) 
+ -> April 14, 2024 ( 03:20:13 ) 
 
-[*] Output from 192.168.155.183
-[+] ubuntu
-
-[*] Output from 192.168.155.202
-[+] ubuntu
-
+[*] Output from 192.168.155.195
+[+] 
 ----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 19:25:28 ) 
+ -> April 14, 2024 ( 03:20:14 ) 
 
-[*] Output from 192.168.155.183
+[*] Output from 192.168.155.195
 [+] 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host proto kernel_lo 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:2a:33:31 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.155.195/24 brd 192.168.155.255 scope global dynamic noprefixroute eth0
+       valid_lft 827sec preferred_lft 827sec
+    inet6 fe80::fca4:2529:ac4e:ebfe/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 09:38:50 ) 
+
+ -> April 14, 2024 ( 09:48:34 ) 
+
+ -> April 14, 2024 ( 09:53:52 ) 
+
+ -> April 14, 2024 ( 09:56:22 ) 
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
        valid_lft forever preferred_lft forever
@@ -60,13 +54,75 @@ Videos
 2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
     link/ether 00:0c:29:81:ef:12 brd ff:ff:ff:ff:ff:ff
     altname enp2s1
-    inet 192.168.155.183/24 brd 192.168.155.255 scope global dynamic noprefixroute ens33
-       valid_lft 3373sec preferred_lft 3373sec
+    inet 192.168.212.183/24 brd 192.168.212.255 scope global dynamic noprefixroute ens33
+       valid_lft 687sec preferred_lft 687sec
     inet6 fe80::9643:b46e:479d:1df8/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 
-[*] Output from 192.168.155.202
-[+] 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:00:48 ) 
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host proto kernel_lo 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:2a:33:31 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.212.195/24 brd 192.168.212.255 scope global dynamic noprefixroute eth0
+       valid_lft 509sec preferred_lft 509sec
+    inet6 fe80::fca4:2529:ac4e:ebfe/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:00:51 ) 
+
+total 216
+drwx------ 18 kali kali  4096 Apr 13 13:14 .
+drwxr-xr-x  3 root root  4096 Feb 25 10:57 ..
+-rw-r--r--  1 kali kali   220 Feb 25 10:57 .bash_logout
+-rw-r--r--  1 kali kali  5551 Feb 25 10:57 .bashrc
+-rw-r--r--  1 kali kali  3526 Feb 25 10:57 .bashrc.original
+drwxr-xr-x 12 kali kali  4096 Apr 13 12:29 .cache
+drwxr-xr-x 13 kali kali  4096 Apr 13 12:29 .config
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Desktop
+-rw-r--r--  1 kali kali    35 Apr 10 02:42 .dmrc
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Documents
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Downloads
+-rw-r--r--  1 kali kali 11759 Feb 25 10:57 .face
+lrwxrwxrwx  1 kali kali     5 Feb 25 10:57 .face.icon -> .face
+drwx------  3 kali kali  4096 Apr 10 02:42 .gnupg
+-rw-------  1 kali kali     0 Apr 10 02:42 .ICEauthority
+drwxr-xr-x  3 kali kali  4096 Feb 25 10:57 .java
+-rw-r--r--  1 kali kali   451 Apr 13 05:02 keylogger.py
+drwxr-xr-x  5 kali kali  4096 Apr 11 23:37 .local
+drwx------  4 kali kali  4096 Apr 10 02:57 .mozilla
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Music
+-rw-r--r--  1 kali kali    47 Apr 11 23:29 passwd_wordlist.txt
+drwxr-xr-x  2 kali kali  4096 Apr 13 12:29 Pictures
+-rw-r--r--  1 kali kali   807 Feb 25 10:57 .profile
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Public
+drwx------  2 kali kali  4096 Apr 10 07:51 .ssh
+drwxr-xr-x  4 kali kali  4096 Apr 13 17:23 SSH-botnet
+-rw-r--r--  1 kali kali 62487 Apr 13 12:22 SSH-botnet.zip
+-rw-r--r--  1 kali kali     0 Apr 10 07:42 .sudo_as_admin_successful
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Templates
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Videos
+-rw-------  1 kali kali    49 Apr 10 07:41 .Xauthority
+-rw-------  1 kali kali  6467 Apr 13 19:02 .xsession-errors
+-rw-------  1 kali kali  5661 Apr 10 05:54 .xsession-errors.old
+-rw-------  1 kali kali   243 Apr 11 23:19 .zsh_history
+-rw-r--r--  1 kali kali 10868 Feb 25 10:57 .zshrc
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:01:00 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:05:53 ) 
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
        valid_lft forever preferred_lft forever
@@ -75,130 +131,45 @@ Videos
 2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
     link/ether 00:0c:29:9a:36:c5 brd ff:ff:ff:ff:ff:ff
     altname enp2s1
-    inet 192.168.155.202/24 brd 192.168.155.255 scope global dynamic noprefixroute ens33
-       valid_lft 3252sec preferred_lft 3252sec
+    inet 192.168.212.202/24 brd 192.168.212.255 scope global dynamic noprefixroute ens33
+       valid_lft 117sec preferred_lft 117sec
     inet6 fe80::5dee:452f:694b:7e0e/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 
 ----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 19:26:03 ) 
+ -> April 14, 2024 ( 10:05:58 ) 
 
-[*] Output from 192.168.155.183
- -> April 11, 2024 ( 19:30:10 ) 
-
-[*] Output from 192.168.155.183
-[+] ubuntu
-
-[*] Output from 192.168.155.202
-[+] ubuntu
-
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 19:31:53 ) 
-
-[*] Output from 192.168.155.183
-[+] ubuntu
-
-[*] Output from 192.168.155.202
-[+] ubuntu
-
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 19:31:54 ) 
-
-[*] Output from 192.168.155.183
-[+] 
-[*] Output from 192.168.155.202
-[+] 
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 19:33:28 ) 
-
-[*] Output from 192.168.155.183
-[+] 
-[*] Output from 192.168.155.202
-[+] 
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:00:31 ) 
-
-[*] Output from 192.168.155.202
-[+] ubuntu
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
 
 ----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:00:33 ) 
+ -> April 14, 2024 ( 10:06:00 ) 
 
-[*] Output from 192.168.155.202
-[+] 
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:00:37 ) 
-
-[*] Output from 192.168.155.202
-[+] 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
-    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
-    inet 127.0.0.1/8 scope host lo
-       valid_lft forever preferred_lft forever
-    inet6 ::1/128 scope host 
-       valid_lft forever preferred_lft forever
-2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-    link/ether 00:0c:29:9a:36:c5 brd ff:ff:ff:ff:ff:ff
-    altname enp2s1
-    inet 192.168.155.202/24 brd 192.168.155.255 scope global dynamic noprefixroute ens33
-       valid_lft 2980sec preferred_lft 2980sec
-    inet6 fe80::5dee:452f:694b:7e0e/64 scope link noprefixroute 
-       valid_lft forever preferred_lft forever
 
 ----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:01:01 ) 
+ -> April 14, 2024 ( 10:06:16 ) 
 
-[*] Output from 192.168.155.202
-[+] Desktop
-Documents
-Downloads
-Music
-Pictures
-Public
-snap
-Templates
-Videos
-
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:01:12 ) 
-
-[*] Output from 192.168.155.202
-[+] Linux ubuntu 6.5.0-18-generic #18~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb  7 11:40:03 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
-
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:01:20 ) 
-
-[*] Output from 192.168.155.202
-[+] uid=999(ubuntu) gid=999(ubuntu) groups=999(ubuntu),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),122(lpadmin),135(lxd),136(sambashare)
-
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:02:43 ) 
-
-[*] Output from 192.168.155.202
-[+] ubuntu
-
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:04:30 ) 
-
- -> April 11, 2024 ( 23:13:17 ) 
-
-[*] Output from 192.168.155.183
-[+] ubuntu
-
- -> April 11, 2024 ( 23:16:39 ) 
-
-[*] Output from 192.168.155.183
-[+] ubuntu
-
- -> April 11, 2024 ( 23:17:32 ) 
-
-[*] Output from 192.168.155.183
-[+] ubuntu
-
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:17:35 ) 
-
-[*] Output from 192.168.155.183
-[+] 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
        valid_lft forever preferred_lft forever
@@ -207,50 +178,397 @@ Videos
 2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
     link/ether 00:0c:29:81:ef:12 brd ff:ff:ff:ff:ff:ff
     altname enp2s1
-    inet 192.168.155.183/24 brd 192.168.155.255 scope global dynamic noprefixroute ens33
-       valid_lft 2921sec preferred_lft 2921sec
+    inet 192.168.212.183/24 brd 192.168.212.255 scope global dynamic noprefixroute ens33
+       valid_lft 93sec preferred_lft 93sec
     inet6 fe80::9643:b46e:479d:1df8/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 
 ----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:29:59 ) 
-
-[*] Output from 192.168.155.183
-[+] ubuntu
-
-----------------------------------------------------------------------------------------------------
- -> April 11, 2024 ( 23:31:50 ) 
-
-[*] Output from 192.168.155.183
-[+] ubuntu
-
-----------------------------------------------------------------------------------------------------
- -> April 12, 2024 ( 01:55:36 ) 
-
-[*] Output from 192.168.155.183
-[+] 
-[*] Output from 192.168.155.202
-[+] 
-----------------------------------------------------------------------------------------------------
- -> April 12, 2024 ( 01:56:34 ) 
-
-[*] Output from 192.168.155.183
- -> April 12, 2024 ( 01:58:26 ) 
-
-[*] Output from 192.168.155.183
-[+] ubuntu
-
-[*] Output from 192.168.155.202
-[+] ubuntu
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host proto kernel_lo 
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:2a:33:31 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.212.195/24 brd 192.168.212.255 scope global dynamic noprefixroute eth0
+       valid_lft 181sec preferred_lft 181sec
+    inet6 fe80::fca4:2529:ac4e:ebfe/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
 
 ----------------------------------------------------------------------------------------------------
- -> April 12, 2024 ( 01:58:39 ) 
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:9a:36:c5 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.212.202/24 brd 192.168.212.255 scope global dynamic noprefixroute ens33
+       valid_lft 94sec preferred_lft 94sec
+    inet6 fe80::5dee:452f:694b:7e0e/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
 
-[*] Output from 192.168.155.183
-[*] Output from 192.168.155.202
 ----------------------------------------------------------------------------------------------------
- -> April 12, 2024 ( 01:59:11 ) 
+ -> April 14, 2024 ( 10:06:24 ) 
 
-[*] Output from 192.168.155.183
-[*] Output from 192.168.155.202
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:19 .
+drwxr-xr-x  1 root   root     60 Apr 11 18:43 ..
+-rw-------  1 ubuntu ubuntu    5 Apr 11 12:18 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 11 18:43 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 11 18:43 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 12 ubuntu ubuntu  340 Apr 11 12:17 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 11 18:43 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 11 11:47 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 11 11:47 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  573 Apr 13 17:40 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu  111 Apr 13 18:19 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 11 18:43 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 11 11:47 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 11 11:47 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 11 18:43 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 11 11:47 Public
+drwx------  3 ubuntu ubuntu   60 Apr 11 11:45 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 11 18:44 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 11 11:47 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 11 11:47 Videos
+
+----------------------------------------------------------------------------------------------------
+total 216
+drwx------ 18 kali kali  4096 Apr 13 13:14 .
+drwxr-xr-x  3 root root  4096 Feb 25 10:57 ..
+-rw-r--r--  1 kali kali   220 Feb 25 10:57 .bash_logout
+-rw-r--r--  1 kali kali  5551 Feb 25 10:57 .bashrc
+-rw-r--r--  1 kali kali  3526 Feb 25 10:57 .bashrc.original
+drwxr-xr-x 12 kali kali  4096 Apr 13 12:29 .cache
+drwxr-xr-x 13 kali kali  4096 Apr 13 12:29 .config
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Desktop
+-rw-r--r--  1 kali kali    35 Apr 10 02:42 .dmrc
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Documents
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Downloads
+-rw-r--r--  1 kali kali 11759 Feb 25 10:57 .face
+lrwxrwxrwx  1 kali kali     5 Feb 25 10:57 .face.icon -> .face
+drwx------  3 kali kali  4096 Apr 10 02:42 .gnupg
+-rw-------  1 kali kali     0 Apr 10 02:42 .ICEauthority
+drwxr-xr-x  3 kali kali  4096 Feb 25 10:57 .java
+-rw-r--r--  1 kali kali   451 Apr 13 05:02 keylogger.py
+drwxr-xr-x  5 kali kali  4096 Apr 11 23:37 .local
+drwx------  4 kali kali  4096 Apr 10 02:57 .mozilla
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Music
+-rw-r--r--  1 kali kali    47 Apr 11 23:29 passwd_wordlist.txt
+drwxr-xr-x  2 kali kali  4096 Apr 13 12:29 Pictures
+-rw-r--r--  1 kali kali   807 Feb 25 10:57 .profile
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Public
+drwx------  2 kali kali  4096 Apr 10 07:51 .ssh
+drwxr-xr-x  4 kali kali  4096 Apr 13 17:23 SSH-botnet
+-rw-r--r--  1 kali kali 62487 Apr 13 12:22 SSH-botnet.zip
+-rw-r--r--  1 kali kali     0 Apr 10 07:42 .sudo_as_admin_successful
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Templates
+drwxr-xr-x  2 kali kali  4096 Apr 10 02:42 Videos
+-rw-------  1 kali kali    49 Apr 10 07:41 .Xauthority
+-rw-------  1 kali kali  6467 Apr 13 19:02 .xsession-errors
+-rw-------  1 kali kali  5661 Apr 10 05:54 .xsession-errors.old
+-rw-------  1 kali kali   243 Apr 11 23:19 .zsh_history
+-rw-r--r--  1 kali kali 10868 Feb 25 10:57 .zshrc
+
+----------------------------------------------------------------------------------------------------
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:06:31 ) 
+
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:30:34 ) 
+
+[*] The file C://Users//tuana//Downloads//SSH-botnet//bot.py was sent successfully IP:192.168.212.195 USER:kali PASS=kali and was located /tmp/abc.py----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:35:08 ) 
+
+[*] The file C://Users//tuana//Downloads//SSH-botnet//bot.py was sent successfully IP:192.168.212.202 USER:ubuntu PASS=123@act and was located /tmp/aaa.py----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:35:28 ) 
+
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:35:32 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:35:36 ) 
+
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:35:47 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:35:50 ) 
+
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:35:58 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:36:02 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:36:03 ) 
+
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:36:06 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:36:07 ) 
+
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:36:10 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:36:12 ) 
+
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:36:24 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:36:25 ) 
+
+total 24
+drwxr-x--- 14 ubuntu ubuntu  420 Apr 13 18:18 .
+drwxr-xr-x  1 root   root     60 Apr 10 13:31 ..
+-rw-------  1 ubuntu ubuntu   77 Apr 10 10:03 .bash_history
+-rw-r--r--  1 ubuntu ubuntu  220 Apr 10 13:31 .bash_logout
+-rw-r--r--  1 ubuntu ubuntu 3771 Apr 10 13:31 .bashrc
+drwx------ 11 ubuntu ubuntu  260 Apr 13 17:01 .cache
+drwxr-xr-x 13 ubuntu ubuntu  360 Apr 10 10:03 .config
+drwxr-xr-x  2 ubuntu ubuntu   60 Apr 10 13:31 Desktop
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Documents
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Downloads
+-rw-rw-r--  1 ubuntu ubuntu  581 Apr 13 17:17 keylogger.py
+-rw-rw-r--  1 ubuntu ubuntu   89 Apr 13 18:18 keylogs.txt
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 .local
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Music
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Pictures
+-rw-r--r--  1 ubuntu ubuntu  807 Apr 10 13:31 .profile
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Public
+drwx------  3 ubuntu ubuntu   60 Apr 10 13:31 snap
+-rw-r--r--  1 ubuntu ubuntu    0 Apr 10 13:31 .sudo_as_admin_successful
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Templates
+drwxr-xr-x  2 ubuntu ubuntu   40 Apr 10 06:32 Videos
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 10:47:41 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 11:04:51 ) 
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens33: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 00:0c:29:81:ef:12 brd ff:ff:ff:ff:ff:ff
+    altname enp2s1
+    inet 192.168.212.183/24 brd 192.168.212.255 scope global dynamic noprefixroute ens33
+       valid_lft 3425sec preferred_lft 3425sec
+    inet6 fe80::9643:b46e:479d:1df8/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 11:05:04 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 11:12:59 ) 
+
+----------------------------------------------------------------------------------------------------
+ubuntu
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 11:19:06 ) 
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 11:20:27 ) 
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 11:22:44 ) 
+
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 11:23:09 ) 
+
+----------------------------------------------------------------------------------------------------
+ -> April 14, 2024 ( 11:23:31 ) 
+
 ----------------------------------------------------------------------------------------------------
