@@ -38,3 +38,4 @@ class Bot:
             self.sftp.put(localpath, remotepath)
         except Exception as e:
             return e
+        
