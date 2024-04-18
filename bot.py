@@ -17,17 +17,19 @@ class Bot:
             return bot
         except paramiko.ssh_exception.AuthenticationException:
             print(f'[*] Authentication Failed IP:{self.host} USER:{self.user} PASS={self.password}')
-        except paramiko.SSHException:
-            print(f'[*] Device Failed Executing the Command IP:{self.host} USER:{self.user} PASS={self.password}')
             return
-        except Exception:
-            return Exception
+        except paramiko.SSHException as e:
+            print(f'[*] Device Failed Executing the Command IP:{self.host} USER:{self.user} PASS={self.password}')
+            return e
+        except Exception as e:
+            return e
 
     def send_command(self, cmd):
         try:
             stdin, stdout, stderr = self.session.exec_command(cmd)
-            result = stdout.read().decode()
-            return result
+            if 'nohup' in cmd:
+                return ''
+            return stdout.read().decode()
         except Exception as e:
             return e
         

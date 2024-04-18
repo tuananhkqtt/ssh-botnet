@@ -11,7 +11,7 @@ class Botnet:
         print(self, host, user, password, port)
         if port != -1:
             bot = Bot(host, user, password, port)
-            if  isinstance(bot.session, Exception):
+            if isinstance(bot.session, Exception):
                 return bot.session
             elif not bot.session: 
                 return False

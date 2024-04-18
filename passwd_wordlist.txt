@@ -5,3 +5,6 @@ root
 ubuntu
 123
 abc
+password
+123456789
+qwerty
