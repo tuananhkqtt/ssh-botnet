@@ -1,5 +1,5 @@
 # SSH-botnet
-A python tool(automation) for automatically finding SSH servers on the network and adding them to the botnet for mass administration and control.
+A python tool (automation) for automatically finding SSH servers on the network and adding them to the botnet for mass administration and control.
 
 ## Features
 
@@ -84,10 +84,10 @@ If you are **Attacking** just press **Ctrl+C** to stop it
 This tool is only for testing and academic purposes and can only be used where strict consent has been given. **Do not use it for illegal purposes**. It is the end user’s responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this tool and software in general.
 
 ## Author
-* **Nguyen Minh Tai** - [mtai83](https://github.com/mtai83)
-* **Nguyen Tuan Anh** - [tuananhkqtt](https://github.com/tuananhkqtt)
-* **Nguyen Thuy Linh** - [Rineee27](https://github.com/Rineee27)
-* **Nguyen Viet Nhat Anh** - [nhatanhhhh]1(https://github.com/nhatanhhhh)
+* **Nguyen Minh Tai**       - [mtai83](https://github.com/mtai83)
+* **Nguyen Tuan Anh**       - [tuananhkqtt](https://github.com/tuananhkqtt)
+* **Nguyen Thuy Linh**      - [Rineee27](https://github.com/Rineee27)
+* **Nguyen Viet Nhat Anh**  - [nhatanhhhh](https://github.com/nhatanhhhh)
 
 ## Inspirations
 
