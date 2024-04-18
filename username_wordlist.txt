@@ -4,4 +4,4 @@ ubtu2
 hanoi
 admin11
 root
-nguyenminhtai
+admin

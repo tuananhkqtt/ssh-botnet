@@ -1,78 +1,95 @@
 # SSH-botnet
 A python tool(automation) for automatically finding SSH servers on the network and adding them to the botnet for mass administration and control.
 
+## Features
+
+**Bot Collecting**
+
+- [x] SSH Dictionary Attack
+
+**Attack Method**
+
+- [x] Command Execution
+
+**File Upload**
+
+- [x] File Uploading via SSH
+
+**Bot Counting**
+
+- [x] Bots Alive Function
+
+## Requirements
+
+**Python 3.9 (64-bit)**
+
+At least 1 **bot** to start the **Attack**
+
 ## Installation
+
 ```
-$ pip install -r requirements.txt --user
+git clone https://github.com/tuananhkqtt/ssh-botnet
+```
+
+
+```
+pip install -r requirements.txt --user
+```
+or
+```
+pip3 install -r requirements.txt --user
 ```
 
 ## Usage
+
+Execute the **ssh.py** with **Python 3.9**: ( Don't use **sudo python ssh.py**, it won't work )
 ```
-$ python ssh_botnet.py Wi-Fi
+python ssh_botnet.py
+```    
+or
+```
+python3 ssh_botnet.py
+```   
 
-Author :	Nguyen Minh Tai
-			Nguyen Tuan Anh
-			Nguyen Thuy Linh
-			Nguyen Viet Nhat Anh
-GitHub : https://github.com/tuananhkqtt/ssh-botnet
-	
-		 _         _           _              _   
- ___ ___| |__     | |__   ___ | |_ _ __   ___| |_ 
-/ __/ __| '_ \    | '_ \ / _ \| __| '_ \ / _ \ __|
-\__ \__ \ | | |   | |_) | (_) | |_| | | |  __/ |_ 
-|___/___/_| |_|___|_.__/ \___/ \__|_| |_|\___|\__|
-             |_____|                              
+Then select the **option** that you want ( **Remember**, you need to have **some bots** before starting the attacks ):
 
+```    
 
-[*] Scanning network for ssh servers ...
-[+] Scan complete
+███████╗███████╗██╗  ██╗    ██████╗  ██████╗ ████████╗███╗   ██╗███████╗████████╗
+██╔════╝██╔════╝██║  ██║    ██╔══██╗██╔═══██╗╚══██╔══╝████╗  ██║██╔════╝╚══██╔══╝
+███████╗███████╗███████║    ██████╔╝██║   ██║   ██║   ██╔██╗ ██║█████╗     ██║   
+╚════██║╚════██║██╔══██║    ██╔══██╗██║   ██║   ██║   ██║╚██╗██║██╔══╝     ██║   
+███████║███████║██║  ██║    ██████╔╝╚██████╔╝   ██║   ██║ ╚████║███████╗   ██║   
+╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝    ╚═╝   ╚═╝  ╚═══╝╚══════╝   ╚═╝   
 
-Running ssh servers : 
-Host : 192.168.56.105		port : 22
-Host : 192.168.56.106		port : 22
-Host : 192.168.56.107		port : 22
+           +------------------------------------------------------+
+           |                                                      |
+           |                  1) Bot Collect                      |
+           |                                                      |
+           |                  2) Command Execution                |
+           |                                                      |
+           |                  3) File Upload                      |
+           |                                                      |
+           |                  4) Bots List                        |
+           |                                                      |
+           |                  5) Exit                             |
+           |                                                      |
+           +------------------------------------------------------+
+```
 
-Continue adding bots to the botnet?[Y/n] y
+If you are **Attacking** just press **Ctrl+C** to stop it
 
-ssh@botnet:~$ ls
-[*] Output from 192.168.56.105
-[+] ls
-vulnerable
+## Disclaimer
 
-[*] Output from 192.168.56.106
-[+] ls
-vulnerable
+This tool is only for testing and academic purposes and can only be used where strict consent has been given. **Do not use it for illegal purposes**. It is the end user’s responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this tool and software in general.
 
-[*] Output from 192.168.56.107
-[+] ls
-vulnerable
+## Author
+* **Nguyen Minh Tai** - [mtai83](https://github.com/mtai83)
+* **Nguyen Tuan Anh** - [tuananhkqtt](https://github.com/tuananhkqtt)
+* **Nguyen Thuy Linh** - [Rineee27](https://github.com/Rineee27)
+* **Nguyen Viet Nhat Anh** - [nhatanhhhh]1(https://github.com/nhatanhhhh)
 
-ssh@botnet:~$ uname -a
-[*] Output from 192.168.56.105
-[+] uname -a
-Linux metasploitable 2.6.24-16-server #1 SMP Thu Apr 10 13:58:00 UTC 2008 i686 GNU/Linux
+## Inspirations
 
-[*] Output from 192.168.56.106
-[+] uname -a
-Linux metasploitable 2.6.24-16-server #1 SMP Thu Apr 10 13:58:00 UTC 2008 i686 GNU/Linux
-
-[*] Output from 192.168.56.107
-[+] uname -a
-Linux metasploitable 2.6.24-16-server #1 SMP Thu Apr 10 13:58:00 UTC 2008 i686 GNU/Linux
-
-ssh@botnet:~$ id
-[*] Output from 192.168.56.105
-[+] id
-uid=1000(msfadmin) gid=1000(msfadmin) groups=4(adm),20(dialout),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),107(fuse),111(lpadmin),112(admin),119(sambashare),1000(msfadmin)
-
-[*] Output from 192.168.56.106
-[+] id
-uid=1000(msfadmin) gid=1000(msfadmin) groups=4(adm),20(dialout),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),107(fuse),111(lpadmin),112(admin),119(sambashare),1000(msfadmin)
-
-[*] Output from 192.168.56.107
-[+] id
-uid=1000(msfadmin) gid=1000(msfadmin) groups=4(adm),20(dialout),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),107(fuse),111(lpadmin),112(admin),119(sambashare),1000(msfadmin)
-
-ssh@botnet:~$ exit
-
-[*] History of commands stored in logs.txt
+- [G0uth4m/SSH-botnet](https://github.com/G0uth4m/SSH-botnet)
+- [kamiras/kamiras-ssh-botnet](https://github.com/kamiras/kamiras-ssh-botnet)

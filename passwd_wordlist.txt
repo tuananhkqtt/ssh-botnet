@@ -1,7 +1,7 @@
 kali
 123@act
 123456
-alo
-hello
-what
-tai123456
+root
+ubuntu
+123
+abc

