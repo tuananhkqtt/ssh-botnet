@@ -87,7 +87,7 @@ This tool is only for testing and academic purposes and can only be used where s
 * **Nguyen Minh Tai**       - [mtai83](https://github.com/mtai83)
 * **Nguyen Tuan Anh**       - [tuananhkqtt](https://github.com/tuananhkqtt)
 * **Nguyen Thuy Linh**      - [Rineee27](https://github.com/Rineee27)
-* **Nguyen Viet Nhat Anh**  - [nhatanhhhh](https://github.com/nhatanhhhh)
+* **Nguyen Viet Nhat Anh**  - [heliosmontana](https://github.com/heliosmontana)
 
 ## Inspirations
 
