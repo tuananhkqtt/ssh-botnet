@@ -75,7 +75,7 @@ def get_passwords(fileName):
     return passwords
 
 def try_dictionary(ssh_servers):
-    usernames = get_passwords('username_wordlist.txt')
+    usernames = get_usernames('username_wordlist.txt')
     passwords = get_passwords('passwd_wordlist.txt')
     retry_delay = 30
     for i, j in ssh_servers.items():
